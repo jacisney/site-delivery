@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DC8E1A;
+    background-image: url(imagens/Frame\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.vermelho h1{
+    color: #981010;
+    font-size: 50px;
+    font-family: 'Josefin Sans';
+}
+
+.jorjao-mt{
+    color: #fae1e1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.lerolero-vidaraza input{
+    border-radius: 50px;
+    width: 350px;
+    height: 30px;
+}
+
+.gabizinha{
+    margin-bottom: 45px;
+}
+
+.butao-google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border-radius:50px ;
+    font-weight: bold;
+    width:350px ;
+    height: 30px;
+}
+
+#icons-google{
+    margin-top: 45px;
+}
+
+#espaco_email{
+    margin-top: 30px;
+    margin-left: 38%;
+}
+
+#senha{
+    margin-left: 62%;
+    color: white;
+    font-size: 10px;
+}
